@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="script.js"></script>
+    <title>Registration</title>
+</head> 
+<body class="body">
+    <div class="container">
+        <div class="body__form">
+            <form action="" class="body__form-block" novalidate method="POST">
+                <h2 class="body__form-block-heading">Регистрация</h2>
+                <div class="body__form-block-nexus">
+                    <p class="body__form-block-description">Имя</p>
+                    <input type="text" class="body__form-block-item" autocomplete="off"  name="name" >
+                    <p class="body__form-block-error"></p>
+                </div>
+                <div class="body__form-block-nexus">
+                    <p class="body__form-block-description">Фамилия</p>
+                    <input type="text" class="body__form-block-item" autocomplete="off"  name="surname" >
+                    <p class="body__form-block-error"></p>
+                </div>
+                <div class="body__form-block-nexus">
+                    <p class="body__form-block-description">Е-mail</p>
+                    <input type="email" class="body__form-block-item" autocomplete="off"  name="email" >
+                    <p class="body__form-block-error"></p>
+                </div>
+                <div class="body__form-block-nexus">
+                    <p class="body__form-block-description">Пароль</p>
+                    <input type="password " class="body__form-block-item pass" autocomplete="off"  name="password" >
+                    <p class="body__form-block-error"></p>
+                </div>
+                <div class="body__form-block-nexus">
+                    <p class="body__form-block-description">Подтверждение пароля</p>
+                    <input type="password " class="body__form-block-item pass_rep" autocomplete="off"  name="repeat-password" >
+                    <p class="body__form-block-error"></p>
+                </div>
+                <div class="body__form-block-nexus">
+                    <p class="body__form-block-description">Дата рождения</p>
+                    <input type="date" class="body__form-block-item" autocomplete="off"  name="date" >
+                    <p class="body__form-block-error"></p>
+                </div>
+                <div class="body__form-block-nexus">
+                    <div class="body__form-block-personal">
+                        <input class="body__form-block-personal-check" type="checkbox">
+                        <p class="body__form-block-personal-txt">Нажимая кнопку «Отправить заявку», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных</p>
+                        <p class="body__form-block-error"></p>
+                    </div>
+                    <input class="btn" type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
